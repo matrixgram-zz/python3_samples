@@ -9,7 +9,6 @@ We want to do inner join betwen two string. These strings have multiple words.
 
 
 def inner_join(str1: str, str2: str) -> list:
-    ''''''
     result = list(set(str1.split()) & set(str2.split()))
     return result
 
